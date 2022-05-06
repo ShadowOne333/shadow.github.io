@@ -1,39 +1,6 @@
 ---
 layout: default
 ---
-<nav id="sub-nav">
-  <h2>Pages</h2>
-  <ul>
-  {% for page in site.data.nav %}
-    <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-  {% endfor %}
-  {% for page in site.nav %}
-    <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-  {% endfor %}
-  </ul>
-
-  {% if page.toc %}
-  <h2>Table of Contents</h2>
-	{{ content | toc_only }}
-  {% endif %}
-
-  <h2>Tags</h2>
-  <ul>
-  {% for tag in site.data.tags %}
-    <li id="tag-{{ tag | replace:' ','-' }}"><a href="{{ site.baseurl }}/tag/{{ tag | replace:' ','-' }}">{{ tag }}</a></li>
-  {% endfor %}
-  </ul>
-
-  <h2>Links</h2>
-  <ul id="nav-social">
-    <li><a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a></li>
-	<li><a href="https://discord.gg/em2M2sG">Discord</a></li>
-	<li><a href="https://patreon.com/mgba">Patreon</a></li>
-	<li><a href="ircs://irc.libera.chat/mgba">Libera.Chat: #mgba</a></li>
-    <li><a href="https://github.com/{{ site.github_username }}/mgba/issues">Issue Tracker</a></li>
-    <li><a href="https://buildbot.mgba.io/">Buildbot</a></li>
-  </ul>
-</nav>
 
 ## Welcome to Shadow's Hacking Hub!
 
