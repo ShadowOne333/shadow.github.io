@@ -1,0 +1,118 @@
+#site-nav {
+  text-align: right;
+  float: right;
+}
+
+#site-nav .page-link {
+  padding: 15px 12px 11px 12px;
+  display: inline-block;
+  height: 30px;
+  color: #fad8e7;
+  transition-duration: 0.2s;
+  transition-property: background-color, border-color;
+  border-bottom: 4px solid #6a37bc;
+}
+
+#site-nav .page-link:hover {
+  text-decoration: none;
+  background-color: rgba(58, 31, 105, 0.8);
+  border-color: #fad8e7;
+}
+
+#sub-nav {
+  margin: 0;
+  margin-right: auto;
+  padding: 20px 0;
+  -webkit-flex: 0 auto;
+  flex: 0 auto;
+  -webkit-order: 2;
+  order: 2;
+  width: 15%;
+  max-width: 200px;
+  position: relative;
+  left: -12px;
+}
+
+#sub-nav > ul {
+  background-color: #2f203c;
+  margin-bottom: 12px;
+  -moz-border-radius: 0 0 8px 8px;
+  -webkit-border-radius: 0 0 8px 8px;
+  border-radius: 0 0 8px 8px;
+  padding: 8px 0 10px 0;
+  margin-bottom: 20px;
+}
+
+#sub-nav h2 {
+  border-bottom: 0;
+  background-color: #6a37bc;
+  -moz-border-radius: 12px 12px 0 0;
+  -webkit-border-radius: 12px 12px 0 0;
+  border-radius: 12px 12px 0 0;
+  margin-bottom: 0;
+}
+
+#sub-nav li {
+  list-style-type: none;
+}
+
+#sub-nav a, #sub-nav h2 {
+  display: block;
+  padding: 3px 20px;
+}
+
+#sub-nav a {
+  font-size: 14px;
+  line-height: 15px;
+  transition-duration: 0.2s;
+  transition-property: background-color, color;
+}
+
+#sub-nav a:hover {
+  background-color: #543a60;
+}
+
+#sub-nav .toc-h3::before {
+  content: "›";
+  float: left;
+  position: relative;
+  left: 22px;
+  margin-top: 2px;
+}
+
+#sub-nav .toc-h3 {
+  font-size: 12px;
+}
+#sub-nav .toc-h3 a {
+  padding-left: 32px;
+}
+
+#sub-nav {
+  -webkit-order: 2;
+  order: 2;
+  -webkit-flex: 1 100%;
+  flex: 1 100%;
+  margin-right: 0;
+  -moz-border-radius: 0 0 20px 20px;
+  -webkit-border-radius: 0 0 20px 20px;
+  border-radius: 0 0 20px 20px;
+  max-width: 100%;
+  position: static;
+}
+
+#sub-nav li {
+  display: inline-block;
+}
+
+#site-nav {
+  max-width: calc(100vw - 140px);
+  max-width: calc(max(100vw, 600px) - 140px);
+  background-color: rgba(106, 53, 188, 0.85);
+  min-height: 48px;
+}
+
+#site-nav .page-link {
+  padding: 11px 5px;
+  font-size: 20px;
+  height: 22px;
+}
