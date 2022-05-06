@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Welcome to Shadow's Hacking Hub!
+## Shadow's Hacking Hub
 
 This website focuses on shading some light on improvement hacks that can be found throughout the internet from all kinds of retro consoles, be it NES, SNES, N64, PSX, GB/C/A, Gamecube, Wii, etc.
 

@@ -42,17 +42,15 @@
 	  <h2>Pages</h2>
 	  <ul>
 	  {% for page in site.data.nav %}
-	    <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+	    <li><a href="redux">Test</a></li>
 	  {% endfor %}
 	  {% for page in site.nav %}
-	    <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+	    <li><a href="recommended">Test2</a></li>
 	  {% endfor %}
 	  </ul>
 
-	  {% if page.toc %}
 	  <h2>Table of Contents</h2>
-		{{ content | toc_only }}
-	  {% endif %}
+		{{ content }}
 
 	  <h2>Tags</h2>
 	  <ul>
