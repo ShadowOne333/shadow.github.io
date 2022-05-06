@@ -32,11 +32,13 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      {% for page in site.pages %}
+     <!-- {% for page in site.pages %}-->
+     {% if site.pages %}
 	<a href="pages/redux" class="btn">Redux Hacks</a>
 	<a href="pages/recommended" class="btn">Recommended Hacks</a>
 	<a href="{{ site.github.owner_url }}" class="btn">Shadow's Repositories</a>
-      {% endfor %}
+      {% endif %}
+      <!--{% endfor %}
       <!--{% if site.github.is_project_page %}
         <a href="{{ site.github.owner_url }}" class="btn">View on GitHub</a>
       {% endif %}-->
