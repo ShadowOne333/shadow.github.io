@@ -33,14 +33,15 @@
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       <!--{% for page in site.pages %}-->
-	<a href="redux" class="btn">Redux Hacks</a>
-	<a href="recommended" class="btn">Recommended Hacks</a>
-	<a href="{{ site.github.owner_url }}" class="btn">Shadow's Repositories</a>
+
       <!--{% endfor %}-->
       <!--{% if site.github.is_project_page %}
         <a href="{{ site.github.owner_url }}" class="btn">View on GitHub</a>
       {% endif %}-->
       {% if site.show_downloads %}
+	<a href="redux" class="btn">Redux Hacks</a>
+	<a href="recommended" class="btn">Recommended Hacks</a>
+	<a href="{{ site.github.owner_url }}" class="btn">Shadow's Repositories</a>
         <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
