@@ -9,4 +9,4 @@ filename: redux
 
 _yay_
 
-[back](./)
+[Back](./)

@@ -9,4 +9,4 @@ filename: recommended
 
 _yay_
 
-[back](./)
+[Back](./)
