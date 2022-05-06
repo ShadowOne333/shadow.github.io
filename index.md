@@ -6,6 +6,8 @@ layout: default
 
 This website focuses on shading some light on improvement hacks that can be found throughout the internet from all kinds of retro consoles, be it NES, SNES, N64, PSX, GB/C/A, Gamecube, Wii, etc.
 
+* * *
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
